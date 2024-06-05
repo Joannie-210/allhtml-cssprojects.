@@ -1,0 +1,62 @@
+body {
+  background-image: url(https://www.istitutomarangonimiami.com/wp-content/uploads/2023/04/how-to-perfect-your-fashion-sketches.webp);
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+}
+h1 {
+  text-align: center;
+  font-family: impact;
+  color: #9b2f6f;
+  margin-bottom: 10px;
+}
+p {
+  text-align: center;
+  color: #9b2f6f;
+  margin-top: 0;
+}
+fieldset {
+background-color: #9b2f6f; 
+opacity: 0.7;
+width: 80vw;
+min-width: 500px;
+max-width:  600px;
+margin: auto;
+border-bottom: none;
+border-top: none;
+padding: 15px;
+font-size: 18px;
+}
+label, input {
+  color: #ffffff;
+  display: block;
+}
+.role, select {
+  display: block;
+}
+input[type="radio"] {
+  margin-top: 10px;
+  display: inline-block;
+}
+input[type="checkbox"] {
+  margin-top: 10px;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+input[type="text"] {
+  width: 50vw;
+  min-width: 300px;
+  max-width: 400px;
+  height: 25px;
+}
+textarea {
+  padding: 5px;
+}
+input[type="submit"] {
+  color: #9b2f6f; 
+  margin: auto;
+  width: 40vw;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 3px;
+  margin-top: 15px
+}
