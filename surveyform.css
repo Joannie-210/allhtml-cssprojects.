@@ -25,6 +25,15 @@ border-bottom: none;
 border-top: none;
 padding: 15px;
 font-size: 18px;
+border-radius: 10px;
+}
+input {
+background-color: #bbbbbb;
+border-radius: 5px;
+}
+label {
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 label, input {
   color: #ffffff;
@@ -55,8 +64,13 @@ input[type="submit"] {
   color: #9b2f6f; 
   margin: auto;
   width: 40vw;
-  min-width: 200px;
+  height: 30px;
+  min-width:200px;
   max-width: 300px;
   padding: 3px;
-  margin-top: 15px
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #ffffff;
 }
