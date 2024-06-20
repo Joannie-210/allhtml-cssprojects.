@@ -12,28 +12,28 @@
       <p id="description">How did you enjoy our training? Take the survey below!</p>
       <form method="POST" id="survey-form">
         <fieldset>
-          <label for="name-label" id="name-label">Name<input id="name" type="text" name="name" placeholder="Enter your full name" required></label>
-          <label for="email-label" id="email-label">Email<input id="email" type="email" name="email" placeholder="Enter your email" required></label>
-          <label for="number-label" id="number-label">Age<input id="number" type="number" min="13" max="120" placeholder="Age"></label>
-          <label for="role">Which role description do you fit into?<select id="dropdown" name="role" value="role">
+          <label for="name-label" id="name-label" class="basis">Name<input id="name" type="text" name="name" class="space" placeholder="Enter your full name" required></label>
+          <label for="email-label" id="email-label" class="basis">Email<input id="email" type="email" name="email"  class="space" placeholder="Enter your email" required></label>
+          <label for="number-label" id="number-label"class="basis number">Age<input id="number" type="number"  class="space" min="13" max="120" placeholder="Age"></label>
+          <label for="role" class="role">Which role description do you fit into?<select id="dropdown" name="role" value="role">
             <option value="">select one</option>
             <option value="1">Beginner</option>
             <option value="2">Intermediate</option>
             <option value="3">Experienced</option>
             </select></label>
-          <label class="recs">Would you recommend Fashion Passion to a friend?</label>
+            <label class="recs">Would you recommend Fashion Passion to a friend?</label>
             <label><input id="yes-of-course" type="radio" name="Yes-maybe-no" value="Yes, of course!" checked>Yes, of course!</label>
             <label><input id="maybe" type="radio" name="Yes-maybe-no" value="maybe">Maybe</label>
-            <label><input id="no" type="radio" name="Yes-maybe-no" value="no">No</label>
-          <label>What aspects would you like us to improve? (select all that apply)</label>
-          <label><input type="checkbox" name="improve" value="mode-of-teaching" checked>Mode of teaching</label>
-          <label><input type="checkbox" name="improve" value="pattern-drafting">Pattern drafting</label>
-   <label><input type="checkbox" name="improve" value="career-advice">Career advice</label>
-   <label><input type="checkbox" name="improve" value="teaching-comprehension">Teaching comprehension</label>
-   <label for="comments">Comments</label>
-   <textarea rows="5" cols="35" placeholder="Enter your comment"></textarea>
-   <input type="submit" id="submit">
- </fieldset>
-       </form>
-    </body>
-  </html>
+            <label class="no"><input id="no" type="radio" name="Yes-maybe-no" value="no">No</label>
+            <label class="checkbox">What aspects would you like us to improve? (select all that apply)</label>
+            <label><input type="checkbox" name="improve" value="mode-of-teaching" checked>Mode of teaching</label>
+            <label><input type="checkbox" name="improve" value="pattern-drafting">Pattern drafting</label>
+            <label><input type="checkbox" name="improve" value="career-advice">Career advice</label>
+            <label class="improv"><input type="checkbox" name="improve" value="teaching-comprehension">Teaching comprehension</label>
+            <label for="comments">Comments</label>
+            <textarea rows="5" cols="77.5" placeholder="Enter your comment"></textarea>
+            <input type="submit" id="submit">
+            </fieldset>
+          </form>
+        </body>
+      </html>
