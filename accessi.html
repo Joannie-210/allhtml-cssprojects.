@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Silicon Valley Interview accessibility-quiz">
+    <link href="accessi.css" rel="stylesheet">
+    <title>Silicon Valley Interview quiz</title>
+    </head>
+<body>
+    <header>
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/silicon-valley-logo-black-and-white.png" id="logo">
+        <h1>Interview Questions</h1>
+        <nav>
+            <ul>
+                <li><a href="#oop-questions">OOP</a></li>
+                <li><a href="#llm-questions">LLM</a></li>
+                <li><a href="#ai-questions">AI</a></li>
+            </ul>
+        </nav>
+    </header>
+        <form action="file:///C:/Users/DELL/Desktop/HTMLDEMO/allhtml-cssprojects/accessi.html" method="post">
+        <section role="region" aria-labelledby="applicant-info">
+        <h2>Applicant Info</h2>
+        <div class="info">
+            <label for="applicant-name">Name: </label>
+            <input type="text" name="applicant-name" id="applicant-name">
+        </div>
+        <div class="info">
+            <label for="applicant-email">Email:</label>
+            <input type="email" name="applicant-email" id="applicant-email">
+        </div>
+        <div class="info">
+            <label for="applicant-dob">DOB:<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="applicant-dob" id="applicant-dob">
+        </div>
+    </section>
+    <section role="region" aria-labelledby="oop-questions">
+    <h2 id="oop-questions">OOP <span class="sr-only">Object Oriented Programming</span>Questions</h2>
+       <p>1</p>
+       <fieldset class="oop-questions" id="oop-questions-one">
+        <legend>In OOP, encapsulation refers to the concept of bundling the data (attributes) and methods (functions) that operate on the data into a single unit or class.</legend>
+        <ul class="answers-list">
+            <li>
+                <label for="q1-a1">
+                <input type="radio" name="q1" id="q1-a1">True
+                </label>
+            </li>
+        </ul>
+        <ul class="answers-list">
+            <li>
+                <label for="q1-a2">
+                    <input type="radio" id="q1-a2" name="q1">False
+                </label>
+            </li>
+        </ul>
+       </fieldset>
+        <p>2</p>
+        <fieldset class="oop-questions" id="oop-questions-two">
+            <legend>Inheritance allows a class to use the properties and methods of another class without the need to rewrite the code.</legend>
+              <ul class="answers-list">
+                <li>
+                    <label for="q2-a1">
+                        <input type="radio" id="q2-a1" name="q2">True                  
+                    </label>
+                </li>
+              </ul>
+              <ul class="answers-list">
+                <li>
+                    <label for="q2-a2">
+                        <input type="radio" id="q2-a2" name="q2">False
+                    </label>
+                </li>
+              </ul>
+        </fieldset>
+        <p>3</p>
+        <fieldset class="oop-questions" id="oop-questions-2">
+           <legend>Polymorphism in OOP allows objects of different classes to be treated as objects of a common super class, but it does not support method overriding.</legend>
+           <ul class="answers-list">
+            <li>
+                <label for="q3-a1">
+                    <input type="radio" id="q3-a1" name="q3">True                  
+                </label>
+            </li>
+          </ul>
+          <ul class="answers-list">
+            <li>
+                <label for="q3-a2">
+                    <input type="radio" id="q3-a2" name="q3">False
+                </label>
+            </li>
+          </ul>
+        </fieldset>
+    </section>
+        </form>
+    </main>
+</body>
+</html>
