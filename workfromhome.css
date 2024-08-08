@@ -32,7 +32,6 @@
     padding: 0;
     background-color: black;
     font-family: poppins;
-    overflow-x: hidden;
 }
 .container {
     display: flex;
@@ -201,7 +200,6 @@ button {
     font-style: normal;
     margin-left: -50px;
     font-weight: 100;
-    padding-right: px;
 }
 .item2 {
     display: flex;
