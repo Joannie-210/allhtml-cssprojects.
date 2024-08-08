@@ -79,7 +79,6 @@ img, .image {
   object-fit: contain;
   margin: auto;
   border-radius: 10px;
-  flex-direction: column;
   box-shadow: 0 0 20px 5px rgba(110, 58, 34, 0.8);
 
 }
